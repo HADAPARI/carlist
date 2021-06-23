@@ -1,0 +1,103 @@
+html, body, #root {
+    height: 100%;
+}
+
+.body{
+    position: relative;
+}
+
+.cursor-pointer{
+    cursor: pointer;
+}
+
+.top-0{
+    top: 0;
+}
+
+.bottom-0{
+    bottom: 0;
+}
+
+.right-0{
+    right: 0;
+}
+
+.toast-notif{
+    width: 300px !important;
+    z-index: 1;
+}
+
+.logo{
+    width: 100px;
+}
+
+.hover-shadow:hover{
+    box-shadow: 0 0 10px #6c757d48;
+}
+
+.car-card{
+    height: 610px;
+}
+
+.h-fit-content{
+    height: fit-content;
+}
+
+.comment-render{
+    height: 78px;
+    overflow-y: auto;
+}
+
+.comment-content{
+    min-height: 40px;
+    max-height: 40px;
+}
+
+/* stylé le scroll bar interne */
+
+#root * {
+    scrollbar-width: thin;
+    scrollbar-color: #999 #e1e1e1;
+}
+
+#root *::-webkit-scrollbar {
+    width: 9px;
+    height: 9px;
+}
+
+#root *::-webkit-scrollbar-button {
+    width: 12px;
+    height: 12px;
+}
+
+#root *::-webkit-scrollbar-thumb {
+    background: #e1e1e1;
+    border: 35px none #ffffff;
+    border-radius: 50px;
+}
+
+#root *::-webkit-scrollbar-thumb:hover {
+    background: #999;
+    width: 30px;
+}
+
+#root *::-webkit-scrollbar-thumb:active {
+    background: #999;
+}
+
+#root *::-webkit-scrollbar-track {
+    background: white;
+    border: 20px none #ffffff;
+    border-radius: 69px;
+}
+
+#root *::-webkit-scrollbar-track:hover {
+    background: #e1e1e1;
+}
+
+#root *::-webkit-scrollbar-track:active {
+    background: #e1e1e1;
+}
+#root *::-webkit-scrollbar-corner {
+    background: transparent;
+}
